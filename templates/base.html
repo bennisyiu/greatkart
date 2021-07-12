@@ -42,9 +42,11 @@
 
 </head>
 <body> 
-    <!-- navbar -->     
+    <!-- navbar -->  
+    {% include 'includes/navbar.html' %}   
     {% block content %}
     <!-- content -->
     {% endblock %}
     <!-- footer -->
+    {% include 'includes/footer.html' %} 
 </html>
